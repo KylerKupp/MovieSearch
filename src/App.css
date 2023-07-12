@@ -1,0 +1,108 @@
+.flex-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+
+.right-info {
+  justify-content: center;
+  text-align: center;
+}
+
+.result-container {
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+}
+
+.btn {
+  cursor:pointer;
+  background-color: #9733EE;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.search-bar-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  border-radius: 8px;
+  width: 90vw;
+  max-width: 37.5em;
+  border: none;
+}
+
+body {
+  background-color: #212121;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating img {
+  width: 1.2em;
+  margin-right: 10px;
+}
+
+.rating h4 {
+  font-size: 1.4em;
+}
+
+.poster {
+  width: 14em;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  color: #a0a0a0;
+}
+
+.genre {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  color: #a0a0a0;
+  padding: 20px;
+}
+
+.genre div {
+  border: 1px solid #9733EE;
+  color: white;
+  font-size: 0.75em;
+  padding: 0.4em 1.6em;
+  border-radius: 0.4em;
+  font-weight: 300;
+}
+
+.error {
+  color: #f14668;
+}
+
+.plot-and-cast {
+  text-align: left;
+  color: #a0a0a0;
+}
+
+.plot-and-cast h2{
+  text-align: left;
+  color: white;
+}
