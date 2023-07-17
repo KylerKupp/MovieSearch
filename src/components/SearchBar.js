@@ -13,7 +13,7 @@ function SearchBar() {
   }
 
   const fetchData = (MovieName) => {
-    let url = `http://www.omdbapi.com/?t=${MovieName}&apikey=9faf8b91`
+    let url = `http://www.omdbapi.com/?t=${MovieName}&apikey=API_KEY`
     if (MovieName.length < 1) {
       setError(true)
     } else {
